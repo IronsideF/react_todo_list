@@ -19,10 +19,6 @@ function App() {
     setNewName(event.target.value);
   }
 
-  const handleTaskRadio = (event) => {
-    setNewPrio(event.target.value);
-  }
-
   const addNewTask = (event) => {
     event.preventDefault();
     const copyTasks = [...tasks];
